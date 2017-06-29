@@ -60,7 +60,7 @@ nav {
 .mission {
   display: flex;
   flex-direction: column;
-  background-image: url("file://C:/cygwin64/home/Jim/tea-cozy/resources/images/img-mission-background.jpg");
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   align-items: center;
@@ -143,7 +143,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("file://C:/cygwin64/home/Jim/tea-cozy/resources/images/img-locations-background.jpg");
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
   padding-top: 70px;
