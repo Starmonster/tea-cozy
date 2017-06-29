@@ -1,5 +1,179 @@
-h1 {
+html {
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 0;
+
+}
+
+body {
+  background-color: black;
   font-family: Helvetica;
-  font-size: 36px;
-  color: #33ffff;
+  font-size: 22px;
+  opacity: 0.9;
+  color: seashell;
+  text-align: center;
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  color: seashell;
+  padding-left: 25px;
+}
+
+ .logo {
+   display: flex;
+   align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 69px;
+
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  background-image: url("file://C:/cygwin64/home/Jim/tea-cozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+
+}
+
+.steeping {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+h2 {
+  margin: 0px;
+  padding: 5px;
+}
+
+h4 {
+  margin: 0px;
+  padding: 5px;
+}
+
+.month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  padding-top: 70px;
+}
+
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 80px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic span {
+  padding-top: 5px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("file://C:/cygwin64/home/Jim/tea-cozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  text-align: center;
+
+}
+
+.addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  flex-basis: 280px;
+  margin: 5px 20px;
+  padding: 10px;
+
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  padding-left: 20px;
+  text-align: left;
 }
